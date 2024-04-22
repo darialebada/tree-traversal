@@ -2,7 +2,7 @@ import unittest
 from tree import Tree
 
 class TestFindMethod(unittest.TestCase):
-
+    """ Testing """
     def test_find_existing_node(self):
         tree = Tree()
         tree.add(3)
